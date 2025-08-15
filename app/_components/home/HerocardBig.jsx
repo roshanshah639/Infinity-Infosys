@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const HerocardBig = ({ title, description, btnText, btnLink }) => {
   return (
     <motion.div
-      className="bg-[#FFBC13] w-full md:w-[90%] lg:w-[355px] h-[350px] sm:h-[240px] lg:h-[350px] py-0 sm:py-6 px-4 flex flex-col items-center justify-center text-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+      className="bg-[#FFBC13] w-full md:w-[90%] lg:w-[355px] h-[350px] sm:h-[240px] lg:h-[400px] py-0 sm:py-6 px-4 flex flex-col items-center justify-center text-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
